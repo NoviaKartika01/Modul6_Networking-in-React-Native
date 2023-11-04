@@ -1,5 +1,6 @@
 {
   "expo": {
+    "scheme": "my-scheme",
     "name": "modul_06",
     "slug": "modul_06",
     "version": "1.0.0",
@@ -25,6 +26,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
